@@ -68,7 +68,21 @@ if (userInput == "2"){
         // 3RD IF ELSE Statement
         if (userInput == "1"){
             print(q4)
+            userInput = readLine()
             
+            if (userInput == "2"){
+                print(q5)
+                userInput = readLine()
+                
+                if (userInput == "1"){
+                    print(win)
+               
+                } else {
+                    print(gameOver5)
+                }
+            } else {
+                print(gameOver4)
+            }
         } else {
             print(gameOver3)
         }
